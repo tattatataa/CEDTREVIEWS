@@ -18,3 +18,10 @@ comment.addEventListener('click', () => {
     if (textArea.style.display === 'none') textArea.style.display = 'block';
     else textArea.style.display = 'none'; 
 })
+
+const comment2 = document.getElementById('comment2');
+comment2.addEventListener('click', () => {
+    const textArea2 = document.getElementById('text2');
+    if (textArea2.style.display === 'none') textArea2.style.display = 'block';
+    else textArea2.style.display = 'none'; 
+})
